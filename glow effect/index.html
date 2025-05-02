@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .box{
+                background-color: white;
+                width: 20%;
+                height: 20%;
+                border-radius: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+                animation: glow 2s linear infinite;
+            }
+            @keyframes glow {
+                0%{box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);}
+                50%{box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.4);}
+                100%{box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">GLOWING<br>GLOWING<br>GAES</div>
+    </body>
+</html>
